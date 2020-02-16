@@ -3,7 +3,7 @@ E = 400; % AC and DC voltages (V)
 R = 1; % Load resistance (Ohm)  
 L = 5e-3; % Load inductance (H)
 
-omega_ref = 65;  % Frequency of AC source (Hz)
+omega_ref = 60;  % Frequency of AC source (Hz)
 omega_vco_free = 50;  % Default frequency for inverter (Hz)
 
 

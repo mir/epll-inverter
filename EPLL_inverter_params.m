@@ -1,12 +1,10 @@
 % Circuit parameters
-E = 400; 
+E = 400; % AC and DC voltages (V)
+R = 1; % Load resistance (Ohm)  
+L = 5e-3; % Load inductance (H)
 
-% Load
-R = 1;    
-L = 5e-3;
-
-omega_ref = 65;  % Frequency (Hz) of AC source Hz
-omega_vco_free = 50;    % Default frequency for inverter
+omega_ref = 65;  % Frequency of AC source (Hz)
+omega_vco_free = 50;  % Default frequency for inverter (Hz)
 
 
 % PLL Parameters
